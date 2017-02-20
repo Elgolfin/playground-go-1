@@ -1,0 +1,12 @@
+;
+; Start view _default
+;
+;
+; Zone dump of '0.in-addr.arpa/IN'
+;
+0.in-addr.arpa.				      10800 IN SOA	0.in-addr.arpa. rname.invalid. 0 86400 3600 604800 10800
+0.in-addr.arpa.				      10800 IN NS	0.in-addr.arpa.
+;0.in-addr.arpa.				      10800 IN A	127.0.0.1
+0.in-addr.arpa.				      10800 IN AAAA	::1
+;
+; Zone dump of '10.in-addr.arpa/IN'

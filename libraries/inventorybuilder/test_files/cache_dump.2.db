@@ -1,0 +1,531 @@
+;
+; Start view _default
+;
+;
+; Zone dump of '0.in-addr.arpa/IN'
+;
+0.in-addr.arpa.				      10800 IN SOA	0.in-addr.arpa. rname.invalid. 0 3600 3600 604800 10800
+0.in-addr.arpa.				      10800 IN NS	0.in-addr.arpa.
+0.in-addr.arpa.				      10800 IN A	117.0.0.1
+0.in-addr.arpa.				      10800 IN AAAA	::1
+;
+; Zone dump of '10.in-addr.arpa/IN'
+;
+10.in-addr.arpa.			      3600 IN SOA	sy1-ave11-av11-z1-dns-001.elgo.local. root.elgo.local. 18 3600 1800 604800 3600
+10.in-addr.arpa.			      3600 IN NS	sy1-ave11-av11-z1-dns-001.elgo.local.
+100.0.0.10.in-addr.arpa.		      3600 IN PTR	sy1-ave11-av11-z1-jump-001.elgo.local.
+110.0.0.10.in-addr.arpa.		      3600 IN PTR	sy1-ave11-av11-z1-dns-001.elgo.local.
+111.0.0.10.in-addr.arpa.		      3600 IN PTR	sy1-ave11-av11-z1-dns-001.elgo.local.
+113.0.0.10.in-addr.arpa.		      3600 IN PTR	ldap-001.elgo.local.
+113.0.0.10.in-addr.arpa.		      3600 IN PTR	sy1-ave11-av11-z1-ldap-001.elgo.local.
+114.0.0.10.in-addr.arpa.		      3600 IN PTR	ldap-001.elgo.local.
+114.0.0.10.in-addr.arpa.		      3600 IN PTR	sy1-ave11-av11-z1-ldap-001.elgo.local.
+115.0.0.10.in-addr.arpa.		      3600 IN PTR	jenkins.elgo.local.
+115.0.0.10.in-addr.arpa.		      3600 IN PTR	sy1-ave11-av11-z1-jenkins-001.elgo.local.
+110.0.0.10.in-addr.arpa.		      3600 IN PTR	artifactory.elgo.local.
+110.0.0.10.in-addr.arpa.		      3600 IN PTR	sy1-ave11-av11-z1-artif-001.elgo.local.
+130.0.0.10.in-addr.arpa.		      3600 IN PTR	sy1-ave11-av11-z1-ytr-001.elgo.local.
+135.0.0.10.in-addr.arpa.		      3600 IN PTR	gitlab.elgo.local.
+135.0.0.10.in-addr.arpa.		      3600 IN PTR	sy1-ave11-av11-z1-gitlab-001.elgo.local.
+101.1.10.10.in-addr.arpa.		      3600 IN PTR	sy1-ave11-av11-d1-app-001.elgo.local.
+151.1.10.10.in-addr.arpa.		      3600 IN PTR	sy1-ave11-av11-d1-adm-001.elgo.local.
+101.1.10.10.in-addr.arpa.		      3600 IN PTR	sy1-ave11-av11-d1-srch-001.elgo.local.
+101.1.10.10.in-addr.arpa.		      3600 IN PTR	sy1-ave11-av11-d1-web-001.elgo.local.
+101.1.10.10.in-addr.arpa.		      3600 IN PTR	sy1-ave11-av11-d1-web-001.elgo.local.
+103.1.10.10.in-addr.arpa.		      3600 IN PTR	sy1-ave11-av11-d1-web-003.elgo.local.
+101.3.10.10.in-addr.arpa.		      3600 IN PTR	sy1-ave11-av11-d1-oras-001.elgo.local.
+151.3.10.10.in-addr.arpa.		      3600 IN PTR	sy1-ave11-av11-d1-nfsdb-001.elgo.local.
+101.4.10.10.in-addr.arpa.		      3600 IN PTR	sy1-ave11-av11-d1-dth-001.elgo.local.
+151.5.10.10.in-addr.arpa.		      3600 IN PTR	sy1-ave11-av11-d1-nfs-001.elgo.local.
+156.5.10.10.in-addr.arpa.		      3600 IN PTR	sy1-ave11-av11-d1-sftp-001.elgo.local.
+101.1.11.10.in-addr.arpa.		      3600 IN PTR	sy1-ave11-av11-d3-app-001.elgo.local.
+151.1.11.10.in-addr.arpa.		      3600 IN PTR	sy1-ave11-av11-d3-adm-001.elgo.local.
+101.1.11.10.in-addr.arpa.		      3600 IN PTR	sy1-ave11-av11-d3-srch-001.elgo.local.
+103.1.11.10.in-addr.arpa.		      3600 IN PTR	sy1-ave11-av11-d3-web-003.elgo.local.
+151.3.11.10.in-addr.arpa.		      3600 IN PTR	sy1-ave11-av11-d3-nfsdb-001.elgo.local.
+101.4.11.10.in-addr.arpa.		      3600 IN PTR	sy1-ave11-av11-d3-dth-001.elgo.local.
+151.5.11.10.in-addr.arpa.		      3600 IN PTR	sy1-ave11-av11-d3-nfs-001.elgo.local.
+156.5.11.10.in-addr.arpa.		      3600 IN PTR	sy1-ave11-av11-d3-sftp-001.elgo.local.
+14.40.191.10.in-addr.arpa.		      3600 IN PTR	ntp1.elgo.local.
+15.40.191.10.in-addr.arpa.		      3600 IN PTR	ntp1.elgo.local.
+111.41.191.10.in-addr.arpa.		      3600 IN PTR	repo-rhel.elgo.local.
+113.41.191.10.in-addr.arpa.		      3600 IN PTR	mail.elgo.local.
+114.41.191.10.in-addr.arpa.		      3600 IN PTR	nfs-db.elgo.local.
+115.41.191.10.in-addr.arpa.		      3600 IN PTR	proxy.elgo.local.
+sy1-ave11-av11-z1-dns-001.10.in-addr.arpa.    3600 IN A	10.0.0.110
+;
+; Zone dump of '100.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '101.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '101.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '103.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '104.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '105.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '106.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '107.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '108.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '109.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '110.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '111.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '111.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '113.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '114.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '115.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '116.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '117.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '118.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '119.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '110.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '111.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '111.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '113.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '114.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '115.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '116.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '117.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '64.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '65.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '66.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '67.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '68.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '69.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '70.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '71.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '71.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '73.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '74.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '75.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '76.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '77.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '78.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '79.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '80.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '81.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '81.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '83.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '84.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '85.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '86.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '87.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '88.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '89.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '90.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '91.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '91.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '93.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '94.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '95.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '96.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '97.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '98.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '99.100.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '117.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '1.0.0.117.in-addr.arpa/IN'
+;
+1.0.0.117.in-addr.arpa.			      3600 IN SOA	1.0.0.117.in-addr.arpa. rname.invalid. 0 3600 3600 604800 10800
+1.0.0.117.in-addr.arpa.			      3600 IN NS	1.0.0.117.in-addr.arpa.
+1.0.0.117.in-addr.arpa.			      3600 IN A	117.0.0.1
+1.0.0.117.in-addr.arpa.			      3600 IN PTR	localhost.
+1.0.0.117.in-addr.arpa.			      3600 IN AAAA	::1
+;
+; Zone dump of '154.169.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '16.171.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '17.171.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '18.171.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '19.171.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '10.171.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '11.171.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '11.171.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '13.171.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '14.171.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '15.171.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '16.171.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '17.171.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '18.171.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '19.171.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '30.171.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '31.171.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '1.0.191.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '168.191.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '100.51.198.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '113.0.103.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '155.155.155.155.IN-ADDR.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN'
+;
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa. 3600	IN SOA 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa. rname.invalid. 0 3600 3600 604800 10800
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa. 3600	IN NS 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa. 3600	IN A 117.0.0.1
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa. 3600	IN PTR localhost.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa. 3600	IN AAAA	::1
+;
+; Zone dump of '8.B.D.0.1.0.0.1.IP6.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of 'D.F.IP6.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '8.E.F.IP6.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of '9.E.F.IP6.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of 'A.E.F.IP6.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of 'B.E.F.IP6.ARPA/IN'
+;
+; not implemented
+;
+; Zone dump of 'elgo.local/IN'
+;
+elgo.local.				      3600 IN SOA	sy1-ave11-av11-z1-dns-001.elgo.local. root.elgo.local. 17 3600 1800 604800 3600
+elgo.local.				      3600 IN NS	sy1-ave11-av11-z1-dns-001.elgo.local.
+artifactory.elgo.local.			      3600 IN A	10.0.0.110
+gitlab.elgo.local.			      3600 IN A	10.0.0.135
+jenkins.elgo.local.			      3600 IN A	10.0.0.115
+ldap-001.elgo.local.			      3600 IN A	10.0.0.113
+ldap-001.elgo.local.			      3600 IN A	10.0.0.114
+mail.elgo.local.				      3600 IN A	10.191.41.113
+nfs-db.elgo.local.			      3600 IN A	10.191.41.114
+ntp1.elgo.local.				      3600 IN A	10.191.40.14
+ntp1.elgo.local.				      3600 IN A	10.191.40.15
+proxy.elgo.local.			      3600 IN A	10.191.41.115
+puppet4.elgo.local.			      3600 IN A	191.168.174.19
+repo-rhel.elgo.local.			      3600 IN A	10.191.41.111
+sy1-ave11-av11-d1-adm-001.elgo.local.	      3600 IN A	10.10.1.151
+sy1-ave11-av11-d1-app-001.elgo.local.	      3600 IN A	10.10.1.101
+sy1-ave11-av11-d1-dth-001.elgo.local.	      3600 IN A	10.10.4.101
+sy1-ave11-av11-d1-nfs-001.elgo.local.	      3600 IN A	10.10.5.151
+sy1-ave11-av11-d1-nfsdb-001.elgo.local.	      3600 IN A	10.10.3.151
+sy1-ave11-av11-d1-oras-001.elgo.local.	      3600 IN A	10.10.3.101
+sy1-ave11-av11-d1-sftp-001.elgo.local.	      3600 IN A	10.10.5.156
+sy1-ave11-av11-d1-srch-001.elgo.local.	      3600 IN A	10.10.1.101
+sy1-ave11-av11-d1-web-009.elgo.local.	      3600 IN A	10.10.1.103
+sy1-ave11-av11-d1-web-003.elgo.local.	      3600 IN A	10.10.1.103
+sy1-ave11-av11-d1-web-001.elgo.local.	      3600 IN A	10.10.1.103
+sy1-ave11-av11-d1-web-011.elgo.local.	      3600 IN A	10.10.1.103
+sy1-ave11-av11-d1-web-001.elgo.local.	      3600 IN A	10.10.1.103
+sy1-ave11-av11-d1-web-006.elgo.local.	      3600 IN A	10.10.1.103
+sy1-ave11-av11-d3-adm-001.elgo.local.	      3600 IN A	10.11.1.151
+sy1-ave11-av11-d3-app-001.elgo.local.	      3600 IN A	10.11.1.101
+sy1-ave11-av11-d3-app-005.elgo.local.	      3600 IN A	10.11.1.101
+sy1-ave11-av11-d3-app-001.elgo.local.	      3600 IN A	10.11.1.101
+sy1-ave11-av11-d3-app-003.elgo.local.	      3600 IN A	10.11.1.101
+sy1-ave11-av11-d3-dth-001.elgo.local.	      3600 IN A	10.11.4.101
+sy1-ave11-av11-d3-nfs-001.elgo.local.	      3600 IN A	10.11.5.151
+sy1-ave11-av11-d3-nfsdb-001.elgo.local.	      3600 IN A	10.11.3.151
+sy1-ave11-av11-d3-srch-001.elgo.local.	      3600 IN A	10.11.1.101
+sy1-ave11-av11-d3-web-003.elgo.local.	      3600 IN A	10.11.1.103
+sy1-ave11-av11-z1-artif-001.elgo.local.	      3600 IN A	10.0.0.110
+sy1-ave11-av11-z1-dns-001.elgo.local.	      3600 IN A	10.0.0.110
+sy1-ave11-av11-z1-dns-001.elgo.local.	      3600 IN A	10.0.0.111
+sy1-ave11-av11-z1-gitlab-001.elgo.local.	      3600 IN A	10.0.0.135
+sy1-ave11-av11-z1-jenkins-001.elgo.local.      3600 IN A	10.0.0.115
+sy1-ave11-av11-z1-jump-001.elgo.local.	      3600 IN A	10.0.0.100
+sy1-ave11-av11-z1-ldap-001.elgo.local.	      3600 IN A	10.0.0.113
+sy1-ave11-av11-z1-ldap-001.elgo.local.	      3600 IN A	10.0.0.114
+sy1-ave11-av11-z1-ytr-001.elgo.local.	      3600 IN A	10.0.0.130
+;
+; Zone dump of 'localhost.localdomain/IN'
+;
+localhost.localdomain.			      3600 IN SOA	localhost.localdomain. rname.invalid. 0 3600 3600 604800 10800
+localhost.localdomain.			      3600 IN NS	localhost.localdomain.
+localhost.localdomain.			      3600 IN A	117.0.0.1
+localhost.localdomain.			      3600 IN AAAA	::1
+;
+; Zone dump of 'localhost/IN'
+;
+localhost.				      3600 IN SOA	localhost. rname.invalid. 0 3600 3600 604800 10800
+localhost.				      3600 IN NS	localhost.
+localhost.				      3600 IN A	117.0.0.1
+localhost.				      3600 IN AAAA	::1
+;
+; Start view _bind
+;
+;
+; Zone dump of 'authors.bind/CH'
+;
+; not implemented
+;
+; Zone dump of 'hostname.bind/CH'
+;
+; not implemented
+;
+; Zone dump of 'version.bind/CH'
+;
+; not implemented
+;
+; Zone dump of 'id.server/CH'
+;
+; not implemented
+; Dump complete
